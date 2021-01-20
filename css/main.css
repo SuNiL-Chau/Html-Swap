@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #a8d0cf;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.det{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    margin: 0.8rem auto auto;
+    cursor: pointer;
+    box-shadow: 0 14px 40px 0px hsl(0 0% 13% / 0.3);
+}
+
+.det .sum {
+    outline: 0;
+}
+
+.listing{
+    list-style: none;
+}
+
+.listing li {
+    margin: .5rem;
+}
+
+.listing li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.listing li a:hover{
+    text-decoration: underline;
+}

@@ -1,4 +1,5 @@
-let img = document.querySelector("#swap-theme"), bd = document.querySelector('body');
+let img = document.querySelector("#img-swap"),
+  bd = document.querySelector("body");
 
 function theme1() {
     img.src = './assets/img-1.jpg'
